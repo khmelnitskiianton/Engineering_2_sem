@@ -6,7 +6,7 @@ import matplotlib.ticker as ticker
 
 path1 = "./data.txt"
 path2 = "./settings.txt"
-file = "./8-1-plot.svg"
+file = "./8-1-plot.png"
 xs = []
 ys = []
 
@@ -43,5 +43,5 @@ plt.grid(color="blue", visible=True, which='major',axis='both',alpha=1, linestyl
 plt.grid(color="blue", visible=True, which='minor',axis='both',alpha=1, linestyle = ":")
 
 plt.legend()
-plt.show()
 plt.savefig(file)
+plt.show()
